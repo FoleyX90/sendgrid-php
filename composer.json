@@ -14,6 +14,6 @@
         "ext-json": "*"
     },
     "autoload": {
-        "psr-0": { "": "SendGrid/" }
+        "psr-0": { "Sendgrid": "." }
     }
 }
