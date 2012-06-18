@@ -1,0 +1,19 @@
+{
+    "name": "rodchyn/sendgrid-php-sdk",
+    "type": "library",
+    "description": "Sendgrid PHP SDK",
+    "keywords": ["sendgrid", "sdk"],
+    "homepage": "https://github.com/rodchyn/sendgrid-php",
+    "license": "MIT",
+    "authors": [
+        {"name": "Yura Rodchyn", "email": "rodchyn@gmail.com"}
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "ext-curl": "*",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-0": { "": "SendGrid/" }
+    }
+}
