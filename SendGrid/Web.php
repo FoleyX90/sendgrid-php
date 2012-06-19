@@ -63,8 +63,7 @@ class Web extends Api implements MailInterface
     {
       foreach($mail->getAttachments() as $k => $attachment)
       {
-        $params['files['.$attachment['filename'].'.'.$attachment['extension'].']'] = '@'.$k;
-        //$params['files['.$attachment['filename'].'.'.$attachment['extension'].']'] = '@'.$attachment['file'];
+        $params['files['.$attachment['filename'].'.'.$attachment['extension'].']'] = '@'.$attachment['file'];
       }
     }
 
