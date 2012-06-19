@@ -372,9 +372,9 @@ class Mail
    * @param String $file - The file to attach.
    * @return  the SendGrid\Mail object.
    */
-  public function addAttachment($file)
+  public function addAttachment($key, $file)
   {
-    $this->attachment_list[] = $this->_getAttachmentInfo($file);
+    $this->attachment_list[$key] = $this->_getAttachmentInfo($file);
     return $this;
   }
 
